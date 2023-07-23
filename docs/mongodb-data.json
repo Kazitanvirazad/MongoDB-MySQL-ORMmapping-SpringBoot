@@ -1,0 +1,60 @@
+//Create a database:-
+use computer;
+
+//Create a collection
+db.createCollection("laptop");
+
+//Insert Dummy Laptop data :-
+db.laptop.insertMany(
+[
+    {
+        "_id": 101,
+        "laptopBrand": "Dell",
+        "processor": "Intel i7 8th Gen vpro",
+        "laptopModelName": "Latitude 5591",
+        "employeeNumber": 7369
+    },
+    {
+        "_id": 102,
+        "laptopBrand": "HP",
+        "processor": "Intel i5 8th Gen",
+        "laptopModelName": "Elitebook",
+        "employeeNumber": 7788
+    },
+    {
+        "_id": 103,
+        "laptopBrand": "Sony",
+        "processor": "Intel i3 2nd Gen",
+        "laptopModelName": "Vaio vpceh35en",
+        "employeeNumber": 7876
+    },
+    {
+        "_id": 104,
+        "laptopBrand": "MSI",
+        "processor": "Intel i7 8th Gen",
+        "laptopModelName": "GL63 8RD-450IN",
+        "employeeNumber": 7566
+    },
+    {
+        "_id": 105,
+        "laptopBrand": "Asus",
+        "processor": "Intel i7 8th Gen",
+        "laptopModelName": "Latitude 5591",
+        "employeeNumber": 7902
+    },
+    {
+        "_id": 106,
+        "laptopBrand": "Lenovo",
+        "processor": "Intel i5 8th Gen",
+        "laptopModelName": "Thinkpad T590",
+        "employeeNumber": 7839
+    },
+    {
+        "_id": 107,
+        "laptopBrand": "Lenovo",
+        "processor": "Intel i5 12th Gen",
+        "laptopModelName": "ThinkBook 14 12th Gen",
+        "employeeNumber": 7782
+    }
+]
+);
